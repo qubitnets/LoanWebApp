@@ -1,0 +1,145 @@
+/* CALCULATOR*/
+.calculator-box {
+  background: #fff;
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.calculator-box h2 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.calculator-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.calculator-left {
+  flex: 1 1 60%;
+}
+
+.calculator-right {
+  flex: 1 1 35%;
+  background: #f9f9f9;
+  border-left: 1px solid #ddd;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.calculator-right h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.calculator-right p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.emi-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-red {
+  background: #2563eb;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-grey {
+  background: #e5e7eb;
+  color: #111;
+  padding: 8px 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.input-group {
+  margin-bottom: 30px;
+}
+
+.input-group label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-group input[type="range"] {
+  width: 100%;
+  height: 6px;
+  margin-top: 10px;
+  accent-color: #2563eb; /* red slider color like image */
+}
+
+.rupee-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.rupee-input span {
+  background: #2563eb;
+  color: #fff;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.rupee-input input {
+  padding: 8px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.tenure-options {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.tenure-options button {
+  padding: 10px 20px;
+  border: 1px solid #999;
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.tenure-options button.active {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+}
